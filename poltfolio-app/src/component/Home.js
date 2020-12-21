@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import bangkok from '../image/vitalijs-barilo-6Tt24FRiOYo-unsplash.jpg'
 import me from '../image/me&home.jpg'
 import dog from '../image/manny-pantoja-10bgCz0qkto-unsplash.jpg'
 import rabbit from '../image/scott-graham-5fNmWej4tAA-unsplash.jpg'
