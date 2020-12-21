@@ -33,7 +33,7 @@ anime.timeline({loop: true})
         <div>
             <div className="info-section" >
                 <div className="info">
-                    <h1>Myself info section</h1>
+                    <h1>Hello! everyone my name is Khwanchai Phaipha, 35 years old born and raise in Khon Kaen City in Thailand </h1>
                 </div>
                 <div className="image">
                     <Carousel activeIndex={index} onSelect={handleSelect} pause={"hover"}>
