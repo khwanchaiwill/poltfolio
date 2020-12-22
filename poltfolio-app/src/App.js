@@ -8,12 +8,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div> 
+      <header className="App-header">   
+        <NavBar/>   
+        <div className="name"> 
           <h1>Khwanchai Phaipha</h1>
-          </div>
-        <NavBar/>
+        </div> 
       </header>
+     
       <HomePage />
     </div>
   );
