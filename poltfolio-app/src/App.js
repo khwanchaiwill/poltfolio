@@ -1,8 +1,14 @@
 
 import React from 'react';
+import {Route} from 'react-router-dom';
 import HomePage from '../src/component/Home.js';
 import NavBar from '../src/component/Navbar.js';
+import Project from '../src/component/Project.js';
+import Skills from '../src/component/Skill.js';
+import Footer from '../src/component/Footer.js';
+import Contact from '../src/component/Contact.js';
 import 'bootstrap/dist/css/bootstrap.min.css';   
+import "video-react/dist/video-react.css";
 import './App.css';
 
 function App() {
@@ -16,6 +22,20 @@ function App() {
       </header>
      
       <HomePage />
+      <div id="skill">
+        <Skills />
+      </div>
+      <div id="project">
+        <Project />
+      </div>
+      <div>
+        <Contact />
+      </div>
+      <div>
+        <Footer />
+      </div>
+      
+      
     </div>
   );
 }

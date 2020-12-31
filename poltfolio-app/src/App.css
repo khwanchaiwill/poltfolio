@@ -3,6 +3,8 @@
 }
 
 .App {
+  width: 98%;
+  margin: auto;
   height: 100vh;
   background-image: url("./image/bangkok.jpg");
   background-attachment: fixed;
@@ -18,28 +20,45 @@
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
 }
 .info-section {
+  margin-top: 10%;
   width: 100%;
   display: flex;
-  justify-content: space-evenly
-
+  justify-content: space-evenly;
 }
 .info{
   width: 50%;
-  background-color: white;
-
+  height: auto;
+  position: relative;
+  
+  /* background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0); */
+ 
 }
+.info-inner{
+  width: 100%;
+  height: 100%;
+  /* background-color: white;  */
+  border: 5px solid  rgb(63, 43, 245);
+  animation: rotate 1.5s linear infinite;
+  background-color: black;
+}
+@keyframes rotate{
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
 .image {
   width: 50%;
+  border: 5px solid  rgb(63, 43, 245);
+  
+}
 
-}
-.project{
-  width: 100%;
-  height: 40vh;
-  background-color: rgb(9, 140, 201);
-}
+
 img{
   width: 100%;
-
 }
 .ml6 {
   position: relative;
@@ -72,10 +91,89 @@ img{
 .text{
   width: 100%;
   padding: 5% 5% 0% 5%;
+  position: relative;
+  animation-name: mymove;
+  animation-duration: 5s;
 }
 .info-text{
-  color: black;
+  /* color: black; */
   text-decoration: none;
+  /* text-shadow: none; */
+  text-align: center;
+  
+}
+@keyframes mymove{
+  from {top: -300px;}
+  to {top: 0px;}
+}
+
+.expand{
+  font-size: 1rem;
+  /* color: black; */
+  text-shadow: none;
+
+}
+.inner-expand{
+  margin-top: 30px;
+  /* color: black; */
+  text-shadow: none;
+  text-align: start;
+}
+.education{
+
+  font-size: 1.5rem;
   text-shadow: none;
   text-align: center;
+
+}
+.education-info{
+  width: 100%;
+  padding: 5% 5% 0% 5%;
+  position: relative;
+  animation-name: moveright;
+  animation-duration: 5s;
+}
+@keyframes moveright{
+  from {left: 500px;}
+  to {left: 0px;}
+}
+
+.experience{
+  font-weight: 600;
+}
+a{
+  text-decoration: none;
+  text-shadow: none; 
+}
+.project{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-image: url("./image/Untitled.png");
+}
+.project-info{
+  width: 50%;
+  margin-top: 5%;
+}
+.project-video{
+  width: 50%;
+  margin-top: 5%;
+  border: 5px dotted violet;
+  border-radius: 5px;
+}
+.skill-section{
+  width: 100%;
+  height: 50vh;
+  background-image: linear-gradient(white,rgb(245, 238, 238), rgb(247, 165, 196));
+}
+.mail-section{
+  width: 100%;
+  height: 30vh;
+  background-image: linear-gradient(rgb(247, 165, 196),rgb(245, 238, 238),white);
+}
+.footer-section{
+  width: 100%;
+  height: 30vh;
+ 
+  background-color: white;
 }

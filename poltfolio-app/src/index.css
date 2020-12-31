@@ -48,9 +48,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./image/bangkok.jpg");
+  background-attachment: fixed;
+  background-position-x:5% ;
+  background-position-y: 15%;
+  background-size: cover;
+  /* background-repeat: no-repeat;
+  background-blend-mode: lighten; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+html{
+	scroll-behavior: smooth;
 }

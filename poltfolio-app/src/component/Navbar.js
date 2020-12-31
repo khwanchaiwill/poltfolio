@@ -5,6 +5,7 @@ function NavBar () {
         <div>
             <NavLink to="/home">Home</NavLink>
             <NavLink to="/about">About</NavLink>
+            <a smooth href="#project">Project</a>
         </div>
     )
 }
