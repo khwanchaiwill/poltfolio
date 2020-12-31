@@ -1,5 +1,4 @@
 import React from 'react';
-import { Icon } from '@material-ui/core';
 import { GitHub, Facebook, LinkedIn, PhoneAndroid, Phone } from '@material-ui/icons';
 
 

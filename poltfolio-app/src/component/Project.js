@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react';
+
 import React from 'react';
 import { Player } from 'video-react';
 import firstProject from '../image/project1fix.mp4';
