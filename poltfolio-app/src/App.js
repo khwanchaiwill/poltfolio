@@ -30,11 +30,10 @@ function App() {
       <div>
         <Contact />
       </div>
-      <div>
+      <div className="footer">
         <Footer />
       </div>
-      
-      
+        
     </div>
   );
 }
