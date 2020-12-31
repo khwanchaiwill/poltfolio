@@ -1,6 +1,5 @@
 
 import React from 'react';
-import {Route} from 'react-router-dom';
 import HomePage from '../src/component/Home.js';
 import NavBar from '../src/component/Navbar.js';
 import Project from '../src/component/Project.js';

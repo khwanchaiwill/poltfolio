@@ -1,5 +1,5 @@
 import React from 'react';
-import { GitHub, Facebook, LinkedIn, PhoneAndroid, Phone } from '@material-ui/icons';
+import { GitHub, Facebook, LinkedIn, PhoneAndroid} from '@material-ui/icons';
 
 
 function Footer () {

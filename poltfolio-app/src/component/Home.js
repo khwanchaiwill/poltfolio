@@ -126,7 +126,7 @@ function HomePage(){
                                                         Reasons for living: As Covid -19 spread the kids have to take 3 weeks off without warning and I have no right people to do babysit for my 4 kids. I have to figured out and take time to find a right person to take care of my kids.
                                                     </p>
                                             </Collapsible>
-                                            <a target="_blank" href="https://www.linkedin.com/in/khwanchai-phaipha-266885a7/">See more info here in my Linkedin</a>
+                                            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/khwanchai-phaipha-266885a7/">See more info here in my Linkedin</a>
                                         </div>
                                     </Collapsible>
                                     <Collapsible trigger="More about me" className="education">
