@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import axios from 'axios';
+import { useHistory } from 'react-router-dom';
 
 const initialFrom = {
     name: '',
@@ -16,16 +17,20 @@ function Contact () {
           [e.target.name]: e.target.value,
         });
     };
+
     const handleSubmit = (e) => {
         e.preventDefault()
         axios
         .post('https://khwanchai-portfolio.herokuapp.com/send', formValue)
         .then(res => {
             setFormValue(res.data)
-           alert("Your message has been sent")
+            alert("Your message has been sent")
+            window.location.reload(true)
+
         
         })
     }
+
     return(
         <div className="mail-section">
             <h4>If you interested to talk more or to work with me</h4>

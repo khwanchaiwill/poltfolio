@@ -102,6 +102,7 @@
   text-decoration: none;
   /* text-shadow: none; */
   text-align: center;
+  font-size: 1.5rem;
   
 }
 @keyframes mymove{
@@ -158,13 +159,24 @@ a{
   width: 50%;
   margin-top: 2%;
   color: black;
-  
+
 }
 .project-video{
   width: 50%;
   margin-top: 2%;
   border: 5px dotted violet;
   border-radius: 5px;
+}
+.h3-project-text{
+  font-size: 1.8rem;
+}
+.h4-project-text{
+  font-size: 1.6rem;
+}
+.project-text{
+  font-size: 1.2rem;
+  text-align: center;
+  padding-left: 5%;
 }
 .skill-section{
   width: 100%;
