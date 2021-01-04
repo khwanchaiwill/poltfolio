@@ -19,15 +19,17 @@ function App() {
           <h1>Khwanchai Phaipha</h1>
         </div> 
       </header>
-     
-      <HomePage />
+     <div>
+       <HomePage />
+     </div>
+      
       <div id="skill">
         <Skills />
       </div>
       <div id="project">
         <Project />
       </div>
-      <div>
+      <div id="contact">
         <Contact />
       </div>
       <div className="footer">
