@@ -17,7 +17,7 @@ function Skills () {
                         skillSet.map(skill => {
                             return <div key={skill.id}> {
 
-                            }  <p className="skill-list"> <img className="icon-img" src={skill.src} width="45"  /> {skill.frontEnd} </p>
+                            }  <p className="skill-list"> <img className="icon-img" src={skill.src} width="45" alt={skill.src} /> {skill.frontEnd} </p>
                                 
                             </div>
                             
