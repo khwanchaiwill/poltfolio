@@ -19,7 +19,7 @@ function App() {
           <h1>Khwanchai Phaipha</h1>
         </div> 
       </header>
-     <div>
+     <div id="home">
        <HomePage />
      </div>
       

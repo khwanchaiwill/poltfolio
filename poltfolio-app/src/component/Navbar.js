@@ -18,7 +18,7 @@ const styles = theme => ({
 function NavBar (props) {
     return (
         <div className="navigate">
-            <a className="a-link" smooth="true" href="#" title="Home page"> <Home  className={props.classes.homeicon} /><span className="span-view">Home </span> </a>
+            <a className="a-link" smooth="true" href="#home" title="Home page"> <Home  className={props.classes.homeicon} /><span className="span-view">Home </span> </a>
             <a className="a-link" smooth="true" href="#contact"  title="Contact info"> < ContactMail className={props.classes.homeicon}/> <span className="span-view">Contact</span></a>
             <a className="a-link" smooth="true" href="#project" title="Project section"> <DeveloperMode  className={props.classes.homeicon}/> <span className="span-view">Project </span></a>
             <a className="a-link" smooth="true" href="#skill" title="Skill section" > <Code className={props.classes.homeicon} /> <span className="span-view">Skill </span></a>

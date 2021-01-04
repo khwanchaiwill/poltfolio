@@ -26,7 +26,7 @@ export const skillSet = [
     { id: 4, frontEnd: "JavaScript", backend: "PostgreSQL", src: js, pics: postql},
     { id: 5, frontEnd: "Redux", backend: "Postman", src: red, pics: postman},
     { id: 6, frontEnd: "HTML/CSS/LESS", backend: "Database Designer", src: html, pics: data},
-    { id: 7, frontEnd: "Style Component", backend: "Jest", src: "", pics: jest},
+    { id: 7, frontEnd: "Style Component", backend: "Jest", src: " ", pics: jest},
     { id: 8, frontEnd: "Python", backend: "E2E", src: py, pics: e2e}
 ]
 export const languageSkill = [

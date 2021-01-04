@@ -10,7 +10,7 @@ function Footer () {
             <a href="tel:+1740-648-7326"><PhoneAndroid /></a>
             <a href="https://wa.me/+17406487326"><WhatsApp/></a> 
             <p className="copyright">Copyright© {new Date().getFullYear()} All rights reserved</p> 
-            <a smooth="true" href="#" className="back-to-top">
+            <a smooth="true" href="#home" className="back-to-top">
                 back to top {'  '}
                 <ExpandLess />
             </a>    
