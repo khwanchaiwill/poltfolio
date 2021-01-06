@@ -77,6 +77,11 @@ html{
    height:100%; /*A value other than height:auto needs to be set*/
 }
 @media only screen and (max-width: 768px){
+	html{
+	overflow-y: scroll;
+   -webkit-overflow-scrolling: touch;
+   /* height:100%; A value other than height:auto needs to be set */
+	}
 	html::before{
 		top: 0;
 		left: 0;
