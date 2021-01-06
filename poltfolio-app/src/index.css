@@ -75,6 +75,7 @@ code {
     monospace;
 }
 html{
+	position: relative;
 	display: block;
 	scroll-padding-top: 70px;
 	overflow-y: scroll;
