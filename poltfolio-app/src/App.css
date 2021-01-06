@@ -391,14 +391,16 @@ input{
     height: auto;
   }
   .ml6 .letter{
-    font-size: 1.55rem;
+    font-size: 1rem;
   }
 
   .ml2 {
     font-weight: 900;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
-
+  .slide-caption{
+    font-size: 1.2rem;
+  }
   /* <-- Skill section --> */
   .skill-section{
     display: flex;
@@ -469,13 +471,13 @@ input{
 
   /*<-- contact section style --> */
   .mail-section h4{
-    font-size: 1.4rem;
+    font-size: 1.15rem;
   }
   label{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   :placeholder-shown{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .message-input{
     width: 90%;

@@ -72,6 +72,9 @@ code {
 html{
 	scroll-behavior: smooth;
 	scroll-padding-top: 70px;
+	overflow-y: scroll;
+   -webkit-overflow-scrolling: touch;
+   height:100%; /*A value other than height:auto needs to be set*/
 }
 @media only screen and (max-width: 768px){
 	html::before{
