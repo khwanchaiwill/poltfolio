@@ -347,7 +347,7 @@ input{
     margin: 0;
     overflow-x: hidden;
     scroll-behavior: smooth !important;
-    -webkit-overflow-scrolling: auto;
+    -webkit-overflow-scrolling: touch;
   }
   /* <-- App style --> */
   .App{
