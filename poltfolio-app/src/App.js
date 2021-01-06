@@ -19,9 +19,9 @@ function App() {
           <h1>Khwanchai Phaipha</h1>
         </div> 
       </div>
-     <div id="home">
-       <HomePage />
-     </div>
+      <div id="home">
+        <HomePage />
+      </div>
       
       <div id="skill">
         <Skills />

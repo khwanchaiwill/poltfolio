@@ -1,16 +1,18 @@
 *{
   margin: 0%;
+  box-sizing: border-box;
 }
 
 /* <-- App --> */
 .App {
+  box-sizing: border-box;
   font-family: 'Times New Roman', Times, serif;
   width: 98%;
   margin: auto;
   background-image: url("./image/bangkok.jpg");
   background-attachment: fixed;
   background-position-x:5% ;
-  background-position-y: 15%;
+  background-position-y: 5%;
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -27,6 +29,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
   padding: 1% 0;
   background-image: linear-gradient(rgb(14, 13, 13),rgb(59, 57, 57),rgb(172, 165, 165));
 
@@ -299,7 +302,7 @@ input{
 }
 
 .message-label{
-  width: 100%;
+  width: 90%;
 }
 .message-input{
   width: 40%;
@@ -339,13 +342,13 @@ input{
 
 /* <--- Responsive design --> */
 
-@media screen and (max-width: 750px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   *{
     margin: 0;
   }
   /* <-- App style --> */
   .App{
-    border: 2px solid white;
+    padding: 0;
   }
   .App-header{
   width: 100%;
@@ -367,7 +370,7 @@ input{
    /* <-- home page  --> */
 
   .name h1{
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .info-section{
     display: block;
