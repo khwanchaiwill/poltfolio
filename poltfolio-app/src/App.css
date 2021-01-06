@@ -2,6 +2,7 @@
   margin: 0%;
 }
 
+/* <-- App --> */
 .App {
   font-family: 'Times New Roman', Times, serif;
   width: 98%;
@@ -18,14 +19,44 @@
   text-align: center;
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
 }
+/* <-- Header --> */
+.App-header{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1% 0;
+  background-image: linear-gradient(rgb(14, 13, 13),rgb(59, 57, 57),rgb(172, 165, 165));
+
+}
+
+.navigate{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: black;
+
+}
+.a-link{
+  color: black;
+  text-decoration: blanchedalmond;
+  display: block;
+}
+.name{
+  width: 50%;
+}
+
+/* <---- Home ----> */
+
 .info-section {
   margin-top: 7%;
   width: 100%;
   padding-top: 7%;
   display: flex;
   justify-content: space-evenly;
-  /* background-color: white; */
-
 }
 .info{
   width: 50%;
@@ -55,17 +86,10 @@
 .image {
   width: 50%;
   border: 5px solid  rgb(63, 43, 245);
-  
 }
 
-
-/* img{
-  width: 100%;
-} */
 .ml6 {
   position: relative;
-  /* font-weight: 900; */
-
 }
 
 .ml6 .text-wrapper {
@@ -98,12 +122,9 @@
   animation-duration: 5s;
 }
 .info-text{
-  /* color: black; */
   text-decoration: none;
-  /* text-shadow: none; */
   text-align: center;
   font-size: 1.5rem;
-  
 }
 @keyframes mymove{
   from {top: -300px;}
@@ -111,17 +132,23 @@
 }
 
 .expand{
+  padding: 5px;
   font-size: 1rem;
   /* color: black; */
   text-shadow: none;
-
+  background-image: none;
+  animation: none;
+}
+.collap:hover{
+  font-size: 1.5rem;
+  color: #e600ad;
+  text-shadow: none;
 }
 .inner-expand{
   margin-top: 30px;
-  /* color: black; */
   text-shadow: none;
   text-align: start;
-}
+} 
 .education{
 
   font-size: 1.5rem;
@@ -129,6 +156,11 @@
   text-align: center;
 
 }
+.education :hover{
+  font-size: 1.2rem;
+  color: #e600ad;
+}
+
 .education-info{
   width: 100%;
   padding: 5% 5% 0% 5%;
@@ -140,14 +172,17 @@
   from {left: 500px;}
   to {left: 0px;}
 }
-
 .experience{
   font-weight: 600;
 }
 a{
   text-decoration: none;
-  /* text-shadow: none;  */
 }
+
+.experience :hover{
+  font-size: 1.3rem;
+}
+/* <-- Project section style --> */
 .project{
   display: flex;
   flex-wrap: wrap;
@@ -178,9 +213,9 @@ a{
   text-align: center;
   padding-left: 5%;
 }
+/* <--- skill section style --> */
 .skill-section{
   width: 100%;
-  /* height: 50vh; */
   padding-top: 5%;
   padding-bottom: 5%;
   display: flex;
@@ -189,18 +224,6 @@ a{
   text-decoration: inherit;
   background-image: linear-gradient(white,rgb(245, 238, 238), rgb(247, 165, 196));
 
-}
-.mail-section{
-  width: 100%;
-  padding-top: 5%;
-  background-image: linear-gradient(rgb(247, 165, 196),rgb(245, 238, 238),white);
-}
-.footer-section{
-  width: 100%;
-  margin-bottom: 2%;
-  padding-top: 10%;
-  /* height: 30vh; */
-  background-color: white;
 }
 .tech-skill{
   width: 50%;
@@ -238,9 +261,6 @@ a{
   border: 5px double black;
   border-left: solid black;
 }
-/* .title{
-  width: 100%;
-} */
 .skill-list{
   font-size: 1.5rem;
   color: black;
@@ -258,6 +278,29 @@ a{
   text-shadow: none;
   font-weight: 600;
 }
+.design{
+  display: none;
+}
+/* <-- Contact --> */
+.mail-section{
+  width: 100%;
+  padding-top: 5%;
+  background-image: linear-gradient(rgb(247, 165, 196),rgb(245, 238, 238),white);
+}
+label{
+  margin:0 10px;
+  font-size: 1.3rem;
+  
+}
+input{
+
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+
+.message-label{
+  width: 100%;
+}
 .message-input{
   width: 40%;
   height: 150px;
@@ -269,53 +312,184 @@ a{
   font-size: 16px;
   resize: none;
 }
+.btn{
+  color: white;
+  margin-top: 5px;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  background-image: linear-gradient(rgb(14, 13, 13),rgb(59, 57, 57),rgb(172, 165, 165));
+  box-shadow: 10px 15px 20px rgb(133, 131, 133);
+}
+
+
+/* <-- Footer -->  */
+.footer-section{
+  width: 100%;
+  margin-bottom: 2%;
+  padding-top: 10%;
+  background-color: white;
+}
 .copyright{
   font-size: 1rem;
 }
 .back-to-top{
-  font-size: 1.5rem;
-}
-label{
-  margin:0 10px;
   font-size: 1.3rem;
 }
-input{
-  font-size: 1.5rem;
-  margin: 5px 0;
-}
-.message-label{
-  width: 100%;
-}
-.btn{
-  margin-top: 5px;
-  font-size: 1.5rem;
-  border-radius: 20px;
-  border: solid blue;
-}
-.navigate{
-  width: 50%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  color: black;
 
-}
-.App-header{
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding: 1% 0;
-  background-image: linear-gradient(rgb(14, 13, 13),rgb(59, 57, 57),rgb(172, 165, 165));
+/* <--- Responsive design --> */
 
+@media screen and (max-width: 750px) {
+  *{
+    margin: 0;
+  }
+  /* <-- App style --> */
+  .App{
+    border: 2px solid white;
+  }
+  .App-header{
+  width: 100%;
+  margin: 0;
 }
-.name{
-  width: 50%;
+  /* <-- head navbar --> */
+  .span-view{
+    display: none;
+  }
+  .a-link{
+    font-size: 1.2rem;
+  }
+  .icon{
+    display: none;
+  }
+  .design{
+    display: block;
+  }
+   /* <-- home page  --> */
+
+  .name h1{
+    font-size: 1.1rem;
+  }
+  .info-section{
+    display: block;
+  }
+  .info{
+    width: 100%;
+  }
+  .info-text{
+    font-size: 1.15rem;
+  }
+   /* <-- home page slide section --> */
+  .image{
+    width: 100%;
+    border:solid white;
+  }
+  .d-block {
+    width: 100%;
+    height: auto;
+  }
+  .ml6 .letter{
+    font-size: 1.55rem;
+  }
+
+  .ml2 {
+    font-weight: 900;
+    font-size: 1.3rem;
+  }
+
+  /* <-- Skill section --> */
+  .skill-section{
+    display: flex;
+    flex-direction: column;
+  }
+  .tech-skill{
+    width: 100%;
+    border-right: 5px double black;
+  }
+  .frontend-skill{
+    width: 90%;
+  }
+  .backend-skill{
+    width: 90%;
+  }
+  .skill-list{
+    font-size: 1rem;
+    line-height: 0.5;
+  }
+  .icon-img{
+    width: 20px;
+  }
+  .f-b{
+    font-size: 1.5rem;
+  }
+  .text-title{
+    font-size: 1.8rem;
+  }
+  .other-skill{
+    width: 100%;
+    border-left: 5px double black;
+  }
+  .text-skill{
+    font-size: 1rem;
+  }
+  /* <--- project section style --> */
+  .project{
+    flex-direction: column;
+  }
+  .project-video{
+    width: 100%;
+  }
+  .project-info{
+    width: 100%;
+  }
+  .project-info a{
+    border: double;
+    border-radius: 8px;
+    background-image: linear-gradient(gray, lightgray, white);
+    font-size: 1.3rem;
+  }
+  .project-name{
+    font-size: 1.5rem;
+    font-weight: 550;
+  }
+  .h3-project-text{
+    font-size: 1.2rem ;
+  }
+  .h4-project-text{
+    font-size: 1.2rem;
+  }
+  .project-text{
+    font-size: 1rem;
+    padding:0 7%;
+    text-align: start;
+  }
+
+  /*<-- contact section style --> */
+  .mail-section h4{
+    font-size: 1.4rem;
+  }
+  label{
+    font-size: 1.2rem;
+  }
+  :placeholder-shown{
+    font-size: 1.2rem;
+  }
+  .message-input{
+    width: 90%;
+    height: 120px;
+    font-size: 14px;
+  }
+  .btn{
+    font-size: 1.2rem;
+    border-radius: 10px;
+  }
+  .btn:hover{
+    color: chartreuse;  
+  }
+  .copyright{
+    color: black;
+  }
+  .back-to-top{
+    font-size: 1rem;
+  }
 }
- .a-link{
-  color: black;
-  text-decoration: blanchedalmond;
-  display: block;
-}
+

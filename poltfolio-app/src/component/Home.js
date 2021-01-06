@@ -8,7 +8,8 @@ import anime from 'animejs/lib/anime.es.js';
 import Collapsible from 'react-collapsible';
 
 function HomePage(){
-    const [index, setIndex] = useState(0);
+    const [index, setIndex] = useState(0);        
+    
     const handleSelect = (selectedIndex, e) =>{
         setIndex(selectedIndex)
         let textWrapper = document.querySelector('.ml6 .letters');
@@ -52,7 +53,7 @@ function HomePage(){
         <div>
             <div className="info-section" >
                 <div className="image">
-                    <Carousel activeIndex={index} onSelect={handleSelect} pause={"hover"}>
+                    <Carousel activeIndex={index} onSelect={handleSelect} pause={"hover"} >
                         <Carousel.Item >
                             <img src={me} className="d-block w-100" alt="first slide" width="1100" height="500"/>
                             <Carousel.Caption>
@@ -65,13 +66,13 @@ function HomePage(){
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item >
-                            <img src={bangkok} className="d-block w-100" alt="second slide" width="1100" height="500"/>
+                            <img src={bangkok} className="d-block" alt="second slide" width="1100" height="500"/>
                                 <Carousel.Caption>
                                     <h3>Bangkok Thailand</h3>
                                 </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img src={temple} className="d-block w-100" alt="third slide" width="1100" height="500"/>
+                            <img src={temple} className="d-block" alt="third slide" width="1100" height="500"/>
                                 <Carousel.Caption>
                                     <h3>Wat Phra Kaew, Bangkok, Thailand</h3>
                                 </Carousel.Caption>
@@ -86,9 +87,9 @@ function HomePage(){
                             </h5> 
                         </div>     
                         <div className="expand">                  
-                            <Collapsible trigger="Click to know more about me">
+                            <Collapsible trigger="Click to know more about me" className="collap" >
                                 <div className="inner-expand">
-                                    <Collapsible trigger="Education <" className="education">
+                                    <Collapsible trigger="Education" className="education">
                                         <div className="education-info">
                                             <h6>KhonKaen Industrial And Community Education College</h6>
                                                 <p>Vocational degree in Computer business, basic computer science</p>  

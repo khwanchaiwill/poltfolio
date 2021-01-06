@@ -13,12 +13,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">   
+      <div className="App-header">   
         <NavBar/>   
         <div className="name"> 
           <h1>Khwanchai Phaipha</h1>
         </div> 
-      </header>
+      </div>
      <div id="home">
        <HomePage />
      </div>
@@ -35,7 +35,6 @@ function App() {
       <div className="footer">
         <Footer />
       </div>
-        
     </div>
   );
 }

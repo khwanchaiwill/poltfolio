@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import axios from 'axios';
 
 
+
 const initialFrom = {
     name: '',
     email: '',
@@ -36,16 +37,19 @@ function Contact () {
             <h4>If you interested to talk more or to work with me</h4>
             <h5>Please contact</h5>
             <form onSubmit={handleSubmit}>
-                <label>Name</label>
-                <input
-                   type="text"
-                   name="name"
-                   value={formValue.name}
-                   onChange={handleChange}
-                   placeholder="name"
-                   
-                />
-                <label>E-mail</label>
+                <div className="message">
+                   <label>Name</label>
+                    <input
+                    type="text"
+                    name="name"
+                    value={formValue.name}
+                    onChange={handleChange}
+                    placeholder="name"
+                    
+                    /> 
+                </div>
+                <div>
+                    <label>E-mail</label>
                 <input 
                     type="email"
                     name="email"
@@ -53,9 +57,12 @@ function Contact () {
                     onChange={handleChange}
                     placeholder="yourmail@email.com"
                 />
+                </div>
+                
                 <div className="message">
                     <label className="message-label">Message</label>
                     <textarea
+                        style={{backgroundColor: "lightgray"}}
                         className="message-input"
                         type="text"
                         name="message"
@@ -65,8 +72,7 @@ function Contact () {
                     /> 
                 </div>  
                 <button className="btn" type="submit">Send Message</button>  
-            </form>
-            
+            </form>    
         </div>
     )
 }

@@ -16,13 +16,13 @@ function Project () {
                 {
                     humanRight.map(human => {
                         return <div> 
-                            <h2>{human.name} </h2>
+                            <h2 className="project-name">{human.name} </h2>
                             <h3 className="h3-project-text">From {human.date} </h3>
                             <h4 className="h4-project-text">Project description</h4>
                             {human.description.map(des => {
                                 return <div><h6 className="project-text"> • {des.name}</h6></div>
                             })} 
-                            <a target="_blank" rel="noopener noreferrer" href={human.url}> Visit site </a>
+                            <a target="_blank" className="site" rel="noopener noreferrer" href={human.url}> Visit site </a>
                         </div>
 
                     })
@@ -41,7 +41,7 @@ function Project () {
                 {
                     airBnb.map(bnb => {
                         return <div> 
-                            <h2>{bnb.name} </h2>
+                            <h2 className="project-name">{bnb.name} </h2>
                             <h3 className="h3-project-text">From {bnb.date} </h3>
                             <h4 className="h4-project-text">Project description</h4>
                             {bnb.description.map(des => {
@@ -64,7 +64,7 @@ function Project () {
                 {
                     expath.map(journal => {
                         return <div> 
-                            <h2>{journal.name} </h2>
+                            <h2 className="project-name">{journal.name} </h2>
                             <h3 className="h3-project-text">From {journal.date} </h3>
                             <h4 className="h4-project-text">Project description</h4>
                             {journal.description.map(des => {
