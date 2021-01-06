@@ -61,6 +61,11 @@ width: 100%;
   background-position-x:5% ;
   background-position-y: 15%;
   background-size: cover;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth !important;
+
   /* background-repeat: no-repeat;
   background-blend-mode: lighten; */
 }
@@ -69,12 +74,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-/* html{
-	scroll-behavior: smooth;
+html{
+	
 	scroll-padding-top: 70px;
 	overflow-y: scroll;
+	overflow-x: hidden;
+	scroll-behavior: smooth !important;
    
-} */
+}
 @media only screen and (max-width: 768px){
 	/* html{ */
 	/* overflow-y: scroll;
