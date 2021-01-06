@@ -345,6 +345,9 @@ input{
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   *{
     margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth !important;
+    -webkit-overflow-scrolling: auto;
   }
   /* <-- App style --> */
   .App{
@@ -424,10 +427,10 @@ input{
     width: 20px;
   }
   .f-b{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
   .text-title{
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
   .other-skill{
     width: 100%;
@@ -454,23 +457,26 @@ input{
     font-size: 1.3rem;
   }
   .project-name{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 550;
   }
   .h3-project-text{
-    font-size: 1.2rem ;
+    font-size: 1rem ;
   }
   .h4-project-text{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .project-text{
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding:0 7%;
     text-align: start;
   }
 
   /*<-- contact section style --> */
   .mail-section h4{
+    font-size: 1.15rem;
+  }
+  .mail-section h5{
     font-size: 1.15rem;
   }
   label{
