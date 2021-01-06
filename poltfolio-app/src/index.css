@@ -82,7 +82,7 @@ html{
 	overflow-x: hidden;
 	scroll-behavior: smooth !important;
 	
-	-webkit-overflow-scrolling: auto; /* Stops scrolling immediately */
+	-webkit-overflow-scrolling: touch; /* Stops scrolling immediately */
 	
    
 }
