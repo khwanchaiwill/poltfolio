@@ -32,7 +32,7 @@ function NavBar (props) {
         
            
             <div className="navigate"> 
-                <a className="a-link" smooth="true" href="#home" title="Home page">
+                <a className="a-link" href="#home" title="Home page">
                     <span className="icon">
                         <Home  className={props.classes.homeicon} />
                     </span>
@@ -41,7 +41,7 @@ function NavBar (props) {
                         <Home  className={props.classes.design} />
                     </span>
                 </a>
-                <a className="a-link" smooth="true" href="#contact"  title="Contact info">
+                <a className="a-link" href="#contact"  title="Contact info">
                     <span className="icon">
                         < ContactMail className={props.classes.homeicon}/>
                     </span> 
@@ -50,7 +50,7 @@ function NavBar (props) {
                         <ContactMail  className={props.classes.design} />
                     </span>
                 </a>
-                <a className="a-link" smooth="true" href="#project" title="Project section">
+                <a className="a-link" href="#project" title="Project section">
                     <span className="icon">
                         <DeveloperMode  className={props.classes.homeicon}/>
                     </span> 
@@ -59,7 +59,7 @@ function NavBar (props) {
                         <DeveloperMode  className={props.classes.design} />
                     </span>
                 </a>
-                <a className="a-link" smooth="true" href="#skill" title="Skill section" >
+                <a className="a-link" href="#skill" title="Skill section" >
                     <span className="icon">
                         <Code className={props.classes.homeicon} />
                     </span> 
@@ -68,7 +68,7 @@ function NavBar (props) {
                         <Code  className={props.classes.design} />
                     </span>
                 </a>
-                <a target="_blank" rel="noopener noreferrer" className="a-link" smooth="true" href="https://drive.google.com/file/d/1Z6GkqadCmy17hpOaDMgLhuQa6hCcyYy6/view?usp=sharing" title="Resume" >
+                <a target="_blank" rel="noopener noreferrer" className="a-link" href="https://drive.google.com/file/d/1Z6GkqadCmy17hpOaDMgLhuQa6hCcyYy6/view?usp=sharing" title="Resume" >
                     <span className="icon">
                         <ListAlt className={props.classes.homeicon} />
                     </span> 
