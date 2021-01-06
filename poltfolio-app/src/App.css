@@ -382,7 +382,7 @@ input{
     width: 100%;
   }
   .info-text{
-    font-size: 1.15rem;
+    font-size: 0.9rem;
   }
    /* <-- home page slide section --> */
   .image{
@@ -491,7 +491,7 @@ input{
     font-size: 14px;
   }
   .btn{
-    font-size: 1.2rem;
+    font-size: 1rem;
     border-radius: 10px;
   }
   .btn:hover{
@@ -499,6 +499,7 @@ input{
   }
   .copyright{
     color: black;
+    font-size: 0.7rem;
   }
   .back-to-top{
     font-size: 1rem;
