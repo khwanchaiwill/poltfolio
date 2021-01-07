@@ -66,13 +66,13 @@ function HomePage(){
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item >
-                            <img src={bangkok} className="d-block" alt="second slide" width="1100" height="500"/>
+                            <img src={bangkok} className="d-block w-100" alt="second slide" width="1100" height="500"/>
                                 <Carousel.Caption>
                                     <h3 className="slide-caption">Bangkok Thailand</h3>
                                 </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img src={temple} className="d-block" alt="third slide" width="1100" height="500"/>
+                            <img src={temple} className="d-block w-100" alt="third slide" width="1100" height="500"/>
                                 <Carousel.Caption>
                                     <h3 className="slide-caption">Wat Phra Kaew, Bangkok, Thailand</h3>
                                 </Carousel.Caption>
