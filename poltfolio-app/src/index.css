@@ -64,7 +64,8 @@ width: 100%;
   overflow-x: hidden;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
+  position: absolute;
 
   /* background-repeat: no-repeat;
   background-blend-mode: lighten; */
