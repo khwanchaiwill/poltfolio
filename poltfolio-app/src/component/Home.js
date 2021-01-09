@@ -101,7 +101,7 @@ function HomePage(){
                                         <div>
                                             <Collapsible trigger="Full stack developer <<" className="experience">
                                                 <p>At Lambda School</p>
-                                                    <p>
+                                                    <p className="experience-text">
                                                         Dates EmployedOct 2020 – Present
                                                         Employment Duration3 mos
                                                         Human right first
@@ -116,7 +116,7 @@ function HomePage(){
                                             </Collapsible>
                                             <Collapsible trigger="Machine Operator <<" className="experience">
                                                     <p>Company Name:Fluvitex USA Full-time </p>
-                                                    <p>
+                                                    <p className="experience-text">
                                                         Dates EmployedAug 2019 – Mar 2020
                                                         Employment Duration8 mos
                                                         • Sewing machine with 3 years experience
