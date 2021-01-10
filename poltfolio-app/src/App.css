@@ -8,6 +8,7 @@
   box-sizing: border-box;
   font-family: 'Times New Roman', Times, serif;
   width: 98%;
+  height: auto;
   margin: auto;
   background-image: url("./image/bangkok.jpg");
   background-attachment: fixed;
@@ -732,7 +733,9 @@ input{
   }
   .project-info{
     width: 100%;
+    margin: 5% 0;
     height: auto;
+    /* border: solid black; */
   }
   .project-info-inner{
     margin: 3% 0;
