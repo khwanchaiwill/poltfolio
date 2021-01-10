@@ -10,6 +10,8 @@
   width: 98%;
   height: auto;
   margin: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
   background-image: url("./image/bangkok.jpg");
   background-attachment: fixed;
   background-position-x:5% ;
