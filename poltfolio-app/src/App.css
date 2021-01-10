@@ -65,8 +65,6 @@
   width: 50%;
   height: auto;
   position: relative;
-  
-  /* background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0); */
  
 }
 .info-inner{
@@ -178,6 +176,12 @@
 .experience{
   font-weight: 600;
 }
+.experience-text{
+  padding-left: 5%;
+}
+.like{
+  padding-left: 5%;
+}
 a{
   text-decoration: none;
 }
@@ -215,6 +219,15 @@ a{
   font-size: 1.2rem;
   text-align: center;
   padding-left: 5%;
+}
+.project-info a{
+  border: double;
+  border-radius: 8px;
+  text-shadow: none;
+  color: black;
+  padding: 2px;
+  background-image: linear-gradient(rgb(82, 81, 81), lightgray, white);
+  font-size: 1.6rem;
 }
 /* <--- skill section style --> */
 .skill-section{
@@ -284,6 +297,7 @@ a{
 .design{
   display: none;
 }
+
 /* <-- Contact --> */
 .mail-section{
   width: 100%;
@@ -341,6 +355,258 @@ input{
 }
 
 /* <--- Responsive design --> */
+@media only screen and (max-width: 1300px){
+  /* <-- head navbar --> */
+
+  .navigate{
+    width: 60%;
+  }
+  .name{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+  .span-view{
+    font-size: 1.8rem;
+  }
+  .name h1{
+    font-size: 2rem;
+    
+  }
+
+  /* <-- home page  --> */
+  .info-text{
+    font-size: 1.3rem;
+  }
+  .education{
+    font-size: 1.3rem;
+  }
+  .ml6 .letter{
+    font-size: 1.5rem;
+  }
+
+  .ml2 {
+    font-weight: 900;
+    font-size: 2.9rem;
+  }
+  .d-block{
+    width: 100%;
+    height: 450px;
+  }
+
+  /* <-- Skill section --> */
+
+  .f-b{
+    font-size: 1.4rem;
+  }
+  .text-title{
+    font-size: 1.6rem;
+  }
+  .skill-list{
+    font-size: 1.3rem;
+    line-height: 1;
+  }
+  .text-skill{
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+  /* <--- project section style --> */
+  .h3-project-text{
+    font-size: 1.3rem ;
+  }
+  .h4-project-text{
+    font-size: 1.3rem;
+  }
+  .project-text{
+    font-size: 1.2rem;
+    padding:0% 10% 0% 15% ;
+    text-align: start;
+  }
+  .project-info a{
+    border: double;
+    border-radius: 8px;
+    text-shadow: none;
+    color: black;
+    padding: 2px;
+    background-image: linear-gradient(rgb(82, 81, 81), lightgray, white);
+    font-size: 1.6rem;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+  *{margin: 0;
+  overflow-y: scroll;
+  scroll-behavior: smooth !important;
+  -webkit-overflow-scrolling: touch;
+  }
+
+
+/* <-- App style --> */
+  .App{
+    padding: 0;
+    overflow: auto;
+
+  }
+  .App-header{
+  width: 100%;
+  margin: 0;
+  }
+  /* <-- head navbar --> */
+  .icon{
+    display: block;
+    
+  }
+  .design{
+    display:none;
+  }
+  .span-view{
+    display: none;
+  }
+  .name h1{
+    font-size: 1.8rem;
+  }
+
+   /* <-- home page  --> */
+
+   .info-section{
+      display: block;
+  }
+  .info{
+    width: 100%;
+    height: auto;
+  }
+  .info-text{
+    font-size: 1.2rem;
+  }
+  .education{
+    font-size: 1.1rem;
+  }
+  .experience-text{
+    padding-left: 5%;
+  }
+  .like{
+    padding-left: 5%;
+  }
+  /* <-- home page slide section --> */
+  .image{
+    margin-top: 5%;
+    width: 100%;
+    border: none;
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .d-block{
+    width: 100%;
+    height: 400px;
+    }
+  }
+  .ml6 .letter{
+    font-size: 1.5rem;
+  }
+
+  .ml2 {
+    font-weight: 900;
+    font-size: 2rem;
+  }
+
+   /* <-- Skill section --> */
+
+   .skill-section{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tech-skill{
+    width: 100%;
+    border-right: 5px double black;
+  }
+  .f-b{
+    font-size: 1.3rem;
+  }
+  .text-title{
+    font-size: 1.5rem;
+  }
+  .skill-list{
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+  .other-skill{
+    width: 100%;
+    border-left: 5px double black;
+  }
+  .text-skill{
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+   /* <--- project section style --> */
+   .project{
+    padding-top: 2%;
+    flex-direction: column-reverse;
+  }
+  .project-video{
+    width: 100%;
+    margin-bottom: 2%;
+
+  }
+  .project-info{
+    width: 100%;
+  }
+  .project-name{
+    font-size: 1.5rem;
+    font-weight: 550;
+  }
+  .h3-project-text{
+    font-size: 1.3rem ;
+  }
+  .h4-project-text{
+    font-size: 1.3rem;
+  }
+  .project-text{
+    font-size: 1.2rem;
+    padding:0% 10% 0% 15% ;
+    text-align: start;
+  }
+  .project-info a{
+    border: double;
+    border-radius: 8px;
+    text-shadow: none;
+    color: black;
+    padding: 2px;
+    background-image: linear-gradient(rgb(82, 81, 81), lightgray, white);
+    font-size: 1.6rem;
+  }
+
+   /*<-- contact section style --> */
+   .mail-section h4{
+    font-size: 1.3rem;
+  }
+  label{
+    font-size: 1.15rem;
+  }
+  :placeholder-shown{
+    font-size: 1.15rem;
+  }
+  .message-input{
+    width: 90%;
+    height: 120px;
+    font-size: 14px;
+  }
+  .btn{
+    font-size: 1.3rem;
+    border-radius: 10px;
+  }
+  .copyright{
+    color: black;
+    font-size: 0.85rem;
+  }
+  .back-to-top{
+    font-size: 1rem;
+  }
+
+}
+
 
 @media only screen and (max-width: 555px)  {
   *{
@@ -374,11 +640,11 @@ input{
   .design{
     display: block;
   }
-   /* <-- home page  --> */
-
   .name h1{
     font-size: 1rem;
   }
+   /* <-- home page  --> */
+
   .info-section{
     display: block;
   }
@@ -523,6 +789,3 @@ input{
   }
 }
 
-@media only screen and (max-width: 1025px) {
-
-}

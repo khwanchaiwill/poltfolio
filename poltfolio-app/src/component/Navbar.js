@@ -3,7 +3,6 @@ import React from 'react';
 import { ContactMail, DeveloperMode, Home, Code, ListAlt } from '@material-ui/icons';
 import { withStyles } from '@material-ui/styles'
 
-
 const styles = theme => ({ 
 
     homeicon: {
@@ -22,7 +21,8 @@ const styles = theme => ({
             color: "greenyellow",
             
         },
-    }
+    },
+    
 }) 
 
 
