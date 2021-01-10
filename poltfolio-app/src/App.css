@@ -738,7 +738,7 @@ input{
     /* border: solid black; */
   }
   .project-info-inner{
-    height: 40vh;
+    margin: 2% 0;
   }
   .project-info a{
     border: double;

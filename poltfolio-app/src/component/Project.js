@@ -13,10 +13,10 @@ function Project () {
     return(
         <div className="project">
             <div className="project-info">
-                <div className="project-info-inner">
+                
                     {
                         humanRight.map(human => {
-                            return <div> 
+                            return <div className="project-info-inner"> 
                                 <h2 className="project-name">{human.name} </h2>
                                 <h3 className="h3-project-text">From {human.date} </h3>
                                 <h4 className="h4-project-text">Project description</h4>
@@ -28,7 +28,7 @@ function Project () {
 
                         })
                     }
-                </div>
+              
             </div>
             
             <div className="project-video">
@@ -39,10 +39,10 @@ function Project () {
                 />
             </div>
             <div className="project-info">
-                <div className="project-info-inner">
+               
                     {
                         airBnb.map(bnb => {
-                            return <div> 
+                            return <div className="project-info-inner"> 
                                 <h2 className="project-name">{bnb.name} </h2>
                                 <h3 className="h3-project-text">From {bnb.date} </h3>
                                 <h4 className="h4-project-text">Project description</h4>
@@ -54,7 +54,7 @@ function Project () {
 
                         })
                     }
-                </div>
+             
             </div>
             <div className="project-video">
                   <Player
@@ -64,10 +64,10 @@ function Project () {
                     />
             </div>
             <div className="project-info">
-                <div className="project-info-inner">
+                
                     {
                         expath.map(journal => {
-                            return <div> 
+                            return <div className="project-info-inner"> 
                                 <h2 className="project-name">{journal.name} </h2>
                                 <h3 className="h3-project-text">From {journal.date} </h3>
                                 <h4 className="h4-project-text">Project description</h4>
@@ -79,7 +79,7 @@ function Project () {
 
                         })
                     }
-                </div>
+              
             </div>
             <div className="project-video">
                   <Player
