@@ -611,9 +611,9 @@ input{
 @media only screen and (max-width: 555px)  {
   *{
     margin: 0;
-    /* overflow-y: scroll;
+    overflow-y: scroll;
     scroll-behavior: smooth !important;
-    -webkit-overflow-scrolling: touch; */
+    -webkit-overflow-scrolling: touch;
 
 
   }
@@ -731,8 +731,8 @@ input{
 
   }
   .project-info{
-    padding: 1%;
     width: 100%;
+    height: auto;
   }
   .project-info-inner{
     margin: 3% 0;
