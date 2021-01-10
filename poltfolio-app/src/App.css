@@ -12,12 +12,6 @@
   margin: auto;
   margin-top: 5%;
   margin-bottom: 10%;
-  background-image: url("./image/bangkok.jpg");
-  background-attachment: fixed;
-  background-position-x:5% ;
-  background-position-y: 5%;
-  background-size: cover;
-  background-repeat: no-repeat;
   text-align: center;
   font-size: 2rem;
   color: rgb(255, 255, 255);
@@ -747,7 +741,7 @@ input{
     border: double;
     border-radius: 8px;
     background-image: linear-gradient(gray, lightgray, white);
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .project-name{
     font-size: 1.2rem;
