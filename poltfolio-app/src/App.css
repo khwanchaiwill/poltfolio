@@ -731,6 +731,7 @@ input{
 
   }
   .project-info{
+    padding: 1%;
     width: 100%;
   }
   .project-info a{

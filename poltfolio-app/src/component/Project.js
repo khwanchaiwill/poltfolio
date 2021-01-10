@@ -13,21 +13,22 @@ function Project () {
     return(
         <div className="project">
             <div className="project-info">
-                {
-                    humanRight.map(human => {
-                        return <div> 
-                            <h2 className="project-name">{human.name} </h2>
-                            <h3 className="h3-project-text">From {human.date} </h3>
-                            <h4 className="h4-project-text">Project description</h4>
-                            {human.description.map(des => {
-                                return <div><h6 className="project-text"> • {des.name}</h6></div>
-                            })} 
-                            <a target="_blank" className="site" rel="noopener noreferrer" href={human.url}> Visit site </a>
-                        </div>
+                <div className="project-info-inner">
+                    {
+                        humanRight.map(human => {
+                            return <div> 
+                                <h2 className="project-name">{human.name} </h2>
+                                <h3 className="h3-project-text">From {human.date} </h3>
+                                <h4 className="h4-project-text">Project description</h4>
+                                {human.description.map(des => {
+                                    return <div><h6 className="project-text"> • {des.name}</h6></div>
+                                })} 
+                                <a target="_blank" className="site" rel="noopener noreferrer" href={human.url}> Visit site </a>
+                            </div>
 
-                    })
-                }
-
+                        })
+                    }
+                </div>
             </div>
             
             <div className="project-video">
@@ -38,20 +39,22 @@ function Project () {
                 />
             </div>
             <div className="project-info">
-                {
-                    airBnb.map(bnb => {
-                        return <div> 
-                            <h2 className="project-name">{bnb.name} </h2>
-                            <h3 className="h3-project-text">From {bnb.date} </h3>
-                            <h4 className="h4-project-text">Project description</h4>
-                            {bnb.description.map(des => {
-                                return <div><h6 className="project-text"> • {des.name}</h6></div>
-                            })} 
-                            <a target="_blank" rel="noopener noreferrer" href={bnb.url}> Visit site </a>
-                        </div>
+                <div className="project-info-inner">
+                    {
+                        airBnb.map(bnb => {
+                            return <div> 
+                                <h2 className="project-name">{bnb.name} </h2>
+                                <h3 className="h3-project-text">From {bnb.date} </h3>
+                                <h4 className="h4-project-text">Project description</h4>
+                                {bnb.description.map(des => {
+                                    return <div><h6 className="project-text"> • {des.name}</h6></div>
+                                })} 
+                                <a target="_blank" rel="noopener noreferrer" href={bnb.url}> Visit site </a>
+                            </div>
 
-                    })
-                }
+                        })
+                    }
+                </div>
             </div>
             <div className="project-video">
                   <Player
@@ -61,20 +64,22 @@ function Project () {
                     />
             </div>
             <div className="project-info">
-                {
-                    expath.map(journal => {
-                        return <div> 
-                            <h2 className="project-name">{journal.name} </h2>
-                            <h3 className="h3-project-text">From {journal.date} </h3>
-                            <h4 className="h4-project-text">Project description</h4>
-                            {journal.description.map(des => {
-                                return <div><h6 className="project-text"> • {des.name}</h6></div>
-                            })} 
-                            <a target="_blank" rel="noopener noreferrer" href={journal.url}> Visit site</a>
-                        </div>
+                <div className="project-info-inner">
+                    {
+                        expath.map(journal => {
+                            return <div> 
+                                <h2 className="project-name">{journal.name} </h2>
+                                <h3 className="h3-project-text">From {journal.date} </h3>
+                                <h4 className="h4-project-text">Project description</h4>
+                                {journal.description.map(des => {
+                                    return <div><h6 className="project-text"> • {des.name}</h6></div>
+                                })} 
+                                <a target="_blank" rel="noopener noreferrer" href={journal.url}> Visit site</a>
+                            </div>
 
-                    })
-                }
+                        })
+                    }
+                </div>
             </div>
             <div className="project-video">
                   <Player
