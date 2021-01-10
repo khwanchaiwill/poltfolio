@@ -250,7 +250,7 @@ a{
 .f-b{
   font-size: 2rem;
   color: #0073e6;
-  font-weight: 800;
+  font-weight: 700;
 }
 .skill-title{
   width: 100%;
@@ -671,7 +671,7 @@ input{
     height: 250px;
   }
   .ml6 .letter{
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .ml2 {
@@ -705,9 +705,11 @@ input{
   }
   .f-b{
     font-size: 1.1rem;
+    font-weight: 500;
   }
   .text-title{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
   }
   .other-skill{
     width: 100%;
@@ -744,8 +746,9 @@ input{
     font-size: 1rem;
   }
   .project-name{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 550;
+    line-height: 1.5;
   }
   .h3-project-text{
     font-size: 1rem ;
@@ -761,10 +764,10 @@ input{
 
   /*<-- contact section style --> */
   .mail-section h4{
-    font-size: 1.15rem;
+    font-size: 1rem;
   }
   .mail-section h5{
-    font-size: 1.15rem;
+    font-size: 1.1rem;
   }
   label{
     font-size: 1rem;
