@@ -734,6 +734,9 @@ input{
     padding: 1%;
     width: 100%;
   }
+  .project-info-inner{
+    margin: 3% 0;
+  }
   .project-info a{
     border: double;
     border-radius: 8px;
