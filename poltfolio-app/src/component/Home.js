@@ -39,14 +39,14 @@ function HomePage(){
             opacity: [0,1],
             translateZ: 0,
             easing: "easeOutExpo",
-            duration: 750,
+            duration: 1000,
             delay: (el, i) => 70*i
         }).add({
             targets: '.ml2',
             opacity: 0,
             duration: 1000,
             easing: "easeOutExpo",
-            delay: 1200
+            delay: 1500
         });
     }
     return(
@@ -62,7 +62,7 @@ function HomePage(){
                                         <span className="letters">Hello! everyone I am Khwanchai</span>
                                     </span>
                                 </h3>
-                                <h4 className="ml2">Full Stack Web Developer</h4>
+                                <h4 className="ml2">Full Stack Web <br /> Developer  </h4>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item >
