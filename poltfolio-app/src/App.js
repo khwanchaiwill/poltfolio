@@ -6,6 +6,7 @@ import Project from '../src/component/Project.js';
 import Skills from '../src/component/Skill.js';
 import Footer from '../src/component/Footer.js';
 import Contact from '../src/component/Contact.js';
+// import BlogPost from './component/Blog.js';
 import 'bootstrap/dist/css/bootstrap.min.css';   
 import "video-react/dist/video-react.css";
 import './App.css';

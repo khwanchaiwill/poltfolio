@@ -68,7 +68,7 @@ function NavBar (props) {
                         <Code  className={props.classes.design} />
                     </span>
                 </a>
-                <a target="_blank" rel="noopener noreferrer" className="a-link" href="https://drive.google.com/file/d/1Z6GkqadCmy17hpOaDMgLhuQa6hCcyYy6/view?usp=sharing" title="Resume" >
+                <a target="_blank" rel="noopener noreferrer" className="a-link" href="https://drive.google.com/file/d/1zSyYpXCwQYplYdTnOnPTkiCz94FVbNrX/view?usp=sharing" title="Resume" >
                     <span className="icon">
                         <ListAlt className={props.classes.homeicon} />
                     </span> 
